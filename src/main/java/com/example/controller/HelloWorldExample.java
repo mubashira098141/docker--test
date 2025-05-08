@@ -8,7 +8,7 @@ public class HelloWorldExample {
 
 	
 
-	    @GetMapping
+	    @GetMapping("/message")
 	    public String getMessage(){
 	        System.out.println("##########################");
 	        return "Hello World from psa";
