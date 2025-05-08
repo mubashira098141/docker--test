@@ -4,6 +4,6 @@ COPY target/example-app.jar  /usr/app/
 
 WORKDIR /usr/app/
 
-EXPOSE 8080
+EXPOSE 9091
 
 ENTRYPOINT ["java", "-jar", "demo-app.jar"]
